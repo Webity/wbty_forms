@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="wbty_forms" method="upgrade">
+	<name>plg_wbty_forms_sample</name>
+	<author>Webity</author>
+	<creationDate>December 2013</creationDate>
+	<copyright>Copyright (C) 2013 Webity. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@makethewebwork.com</authorEmail>
+	<authorUrl>www.makethewebwork.com</authorUrl>
+	<version>0.2.0</version>
+	<description>PLG_WBTY_FORMS_sample_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="sample">sample.php</filename>
+	</files>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB.plg_wbty_forms_sample.ini</language>
+		<language tag="en-GB">en-GB.plg_wbty_forms_sample.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<!--<field name="cols" type="text"
+					default="2"
+					description="PLG_CONTENT_WBTY_COLUMNIZER_COLS"
+					label="PLG_CONTENT_WBTY_COLUMNIZER_COLS_LABEL"
+					filter="integer"
+				/>-->
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

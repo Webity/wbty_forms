@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="form" option="View">
+	</layout>
+	
+	<fields name="params">
+		<!-- Basic options. -->
+		<fieldset name="basic" label="Basic">
+			<field name="form" type="sql"
+				description="Form to Display"
+				label="Form"
+				query="SELECT id, name FROM #__wbty_forms_forms WHERE state=1 AND base_id=0 ORDER BY ordering" value_field="name" key_field="id"
+			/>
+			<field type="list" name="display_legend" label="Display Legend">
+				<option value="">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field type="list" name="layout_type" label="Basic Layout" description="Layout based on bootstrap form classes.">
+				<option value="">Standard</option>
+				<option value="form-search">Search</option>
+				<option value="form-inline">Inline</option>
+				<option value="form-horizontal">Horizontal</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,173 @@
+<table border="1" cellspacing="0" class="PSLEVEL1GRIDWBO" id="CRSE_HIST$scroll$0" dir="ltr" cols="10" width="650" cellpadding="2">
+<tbody><tr><td class="PSLEVEL1GRIDLABEL" colspan="10" align="right"><div id="win0divGPCRSE_HIST$0">&nbsp;|&nbsp;<a name="CRSE_HIST$hmodal$0" id="CRSE_HIST$hmodal$0" tabindex="37" href="javascript:mAction_win0(document.win0,'CRSE_HIST$hmodal$0', null, null, '', true);"></a><a name="CRSE_HIST$hexcel$0" id="CRSE_HIST$hexcel$0" tabindex="37" href="javascript:submitAction_win0(document.win0,'CRSE_HIST$hexcel$0');"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="PSGRIDCOUNTER">1-4 of 4</span>&nbsp;</div></td></tr>
+<tr>
+<th scope="col" width="74" align="left" class="PSLEVEL1GRIDCOLUMNHDR">Course</th>
+<th scope="col" width="166" align="left" class="PSLEVEL1GRIDCOLUMNHDR">Description</th>
+<th scope="col" width="74" align="left" class="PSLEVEL1GRIDCOLUMNHDR">Term</th>
+<th scope="col" width="45" align="right" class="PSLEVEL1GRIDCOLUMNHDR">Units</th>
+<th scope="col" width="39" align="left" class="PSLEVEL1GRIDCOLUMNHDR">Grade</th>
+<th scope="col" width="67" align="left" class="PSLEVEL1GRIDCOLUMNHDR">Grd Points</th>
+
+
+
+<th scope="col" width="48" align="left" class="PSLEVEL1GRIDCOLUMNHDR">Transcript Note</th>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr id="trCRSE_HIST$0_row51" valign="center" onclick="HighLightTR('rgb(212,219,217)','','trCRSE_HIST$0_row51');" onmouseover="hoverLightTR('rgb(249,254,203)','',0,'trCRSE_HIST$0_row51');" onmouseout="hoverLightTR('rgb(249,254,203)','',1,'trCRSE_HIST$0_row51');">
+<td align="left" class="PSLEVEL1GRIDODDROW" height="15" style="background-color: rgb(249, 254, 203);">
+<div id="win0divCRSE_NAME$50"><span class="PSEDITBOX_DISPONLY" id="CRSE_NAME$50">TAT 341</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDODDROW" style="background-color: rgb(249, 254, 203);">
+<div id="win0divCRSE_LINK$50"><span class="PSHYPERLINK" title="View Course Details"><div name="CRSE_LINK$50" id="CRSE_LINK$50" tabindex="299" href="javascript:hAction_win0(document.win0,'CRSE_LINK$50', 0, 0, 'Directing for the Camera', false, true);" class="PSHYPERLINK">Directing for the Camera</div></span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDODDROW" style="background-color: rgb(249, 254, 203);">
+<div id="win0divCRSE_TERM$50"><span class="PSEDITBOX_DISPONLY" id="CRSE_TERM$50">2013 Spring</span>
+</div></td>
+<td align="right" class="PSLEVEL1GRIDODDROW" style="background-color: rgb(249, 254, 203);">
+<div id="win0divCRSE_UNITS$50"><span class="PSEDITBOX_DISPONLY" id="CRSE_UNITS$50">4.00</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDODDROW" style="background-color: rgb(249, 254, 203);">
+<div id="win0divCRSE_GRADE$50"><span class="PSEDITBOX_DISPONLY" id="CRSE_GRADE$50">A-</span>
+</div></td>
+<td align="right" class="PSLEVEL1GRIDODDROW" style="background-color: rgb(249, 254, 203);">
+<div id="win0divDERIVED_SSS_HST_GRADE_POINTS$50"><span class="PSEDITBOX_DISPONLY" id="DERIVED_SSS_HST_GRADE_POINTS$50">7.400</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDODDROW" style="background-color: rgb(249, 254, 203);">
+<div id="win0divDERIVED_SSS_HST_CSU_DESCR$50"><span class="PSEDITBOX_DISPONLY" id="DERIVED_SSS_HST_CSU_DESCR$50">&nbsp;</span>
+</div></td>
+
+
+
+</tr>
+<tr id="trCRSE_HIST$0_row52" valign="center" onclick="HighLightTR('rgb(212,219,217)','','trCRSE_HIST$0_row52');" onmouseover="hoverLightTR('rgb(249,254,203)','',0,'trCRSE_HIST$0_row52');" onmouseout="hoverLightTR('rgb(249,254,203)','',1,'trCRSE_HIST$0_row52');">
+<td align="left" class="PSLEVEL1GRIDEVENROW" height="15" style="">
+<div id="win0divCRSE_NAME$51"><span class="PSEDITBOX_DISPONLY" id="CRSE_NAME$51">HCOM 266</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divCRSE_LINK$51"><span class="PSHYPERLINK" title="View Course Details"><div name="CRSE_LINK$51" id="CRSE_LINK$51" tabindex="304" href="javascript:hAction_win0(document.win0,'CRSE_LINK$51', 0, 0, 'Histories of Democracy', false, true);" class="PSHYPERLINK">Histories of Democracy</div></span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divCRSE_TERM$51"><span class="PSEDITBOX_DISPONLY" id="CRSE_TERM$51">2013 Spring</span>
+</div></td>
+<td align="right" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divCRSE_UNITS$51"><span class="PSEDITBOX_DISPONLY" id="CRSE_UNITS$51">4.00</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divCRSE_GRADE$51"><span class="PSEDITBOX_DISPONLY" id="CRSE_GRADE$51">C+</span>
+</div></td>
+<td align="right" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divDERIVED_SSS_HST_GRADE_POINTS$51"><span class="PSEDITBOX_DISPONLY" id="DERIVED_SSS_HST_GRADE_POINTS$51">9.200</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divDERIVED_SSS_HST_CSU_DESCR$51"><span class="PSEDITBOX_DISPONLY" id="DERIVED_SSS_HST_CSU_DESCR$51">&nbsp;</span>
+</div></td>
+
+
+
+</tr>
+<tr id="trCRSE_HIST$0_row53" valign="center" onclick="HighLightTR('rgb(212,219,217)','','trCRSE_HIST$0_row53');" onmouseover="hoverLightTR('rgb(249,254,203)','',0,'trCRSE_HIST$0_row53');" onmouseout="hoverLightTR('rgb(249,254,203)','',1,'trCRSE_HIST$0_row53');">
+<td align="left" class="PSLEVEL1GRIDODDROW" height="15" style="">
+<div id="win0divCRSE_NAME$52"><span class="PSEDITBOX_DISPONLY" id="CRSE_NAME$52">CST 251</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDODDROW" style="">
+<div id="win0divCRSE_LINK$52"><span class="PSHYPERLINK" title="View Course Details"><div name="CRSE_LINK$52" id="CRSE_LINK$52" tabindex="309" href="javascript:hAction_win0(document.win0,'CRSE_LINK$52', 0, 0, 'Basic Web Design', false, true);" class="PSHYPERLINK">Basic Web Design</div></span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDODDROW" style="">
+<div id="win0divCRSE_TERM$52"><span class="PSEDITBOX_DISPONLY" id="CRSE_TERM$52">2013 Spring</span>
+</div></td>
+<td align="right" class="PSLEVEL1GRIDODDROW" style="">
+<div id="win0divCRSE_UNITS$52"><span class="PSEDITBOX_DISPONLY" id="CRSE_UNITS$52">4.00</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDODDROW" style="">
+<div id="win0divCRSE_GRADE$52"><span class="PSEDITBOX_DISPONLY" id="CRSE_GRADE$52">B</span>
+</div></td>
+<td align="right" class="PSLEVEL1GRIDODDROW" style="">
+<div id="win0divDERIVED_SSS_HST_GRADE_POINTS$52"><span class="PSEDITBOX_DISPONLY" id="DERIVED_SSS_HST_GRADE_POINTS$52">4.000</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDODDROW" style="">
+<div id="win0divDERIVED_SSS_HST_CSU_DESCR$52"><span class="PSEDITBOX_DISPONLY" id="DERIVED_SSS_HST_CSU_DESCR$52">&nbsp;</span>
+</div></td>
+
+
+
+</tr>
+<tr id="trCRSE_HIST$0_row54" valign="center" onclick="HighLightTR('rgb(212,219,217)','','trCRSE_HIST$0_row54');" onmouseover="hoverLightTR('rgb(249,254,203)','',0,'trCRSE_HIST$0_row54');" onmouseout="hoverLightTR('rgb(249,254,203)','',1,'trCRSE_HIST$0_row54');">
+<td align="left" class="PSLEVEL1GRIDEVENROW" height="15" style="">
+<div id="win0divCRSE_NAME$53"><span class="PSEDITBOX_DISPONLY" id="CRSE_NAME$53">KIN 263</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divCRSE_LINK$53"><span class="PSHYPERLINK" title="View Course Details"><div name="CRSE_LINK$53" id="CRSE_LINK$53" tabindex="314" href="javascript:hAction_win0(document.win0,'CRSE_LINK$53', 0, 0, 'Intro to Human Sexuality', false, true);" class="PSHYPERLINK">Intro to Human Sexuality</div></span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divCRSE_TERM$53"><span class="PSEDITBOX_DISPONLY" id="CRSE_TERM$53">2013 Spring</span>
+</div></td>
+<td align="right" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divCRSE_UNITS$53"><span class="PSEDITBOX_DISPONLY" id="CRSE_UNITS$53">3.00</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divCRSE_GRADE$53"><span class="PSEDITBOX_DISPONLY" id="CRSE_GRADE$53">B</span>
+</div></td>
+<td align="right" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divDERIVED_SSS_HST_GRADE_POINTS$53"><span class="PSEDITBOX_DISPONLY" id="DERIVED_SSS_HST_GRADE_POINTS$53">3.000</span>
+</div></td>
+<td align="left" class="PSLEVEL1GRIDEVENROW" style="">
+<div id="win0divDERIVED_SSS_HST_CSU_DESCR$53"><span class="PSEDITBOX_DISPONLY" id="DERIVED_SSS_HST_CSU_DESCR$53">&nbsp;</span>
+</div></td>
+
+
+
+</tr>
+
+
+
+
+</tbody></table>

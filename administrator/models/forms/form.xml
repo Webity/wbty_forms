@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="form">
+        <fieldset name="form">
+
+            <field name="id" type="hidden" default="0" class="id" /> 
+    
+			<field type="text" label="COM_WBTY_FORMS_FORM_LBL_FORMS_NAME" name="name" description="COM_WBTY_FORMS_FORM_DESC_FORMS_NAME" filter="safehtml" required="true" class="default_col" />
+			<field type="text" label="COM_WBTY_FORMS_FORM_LBL_FORMS_EMAIL_RECIPIENTS" name="email_recipients" description="COM_WBTY_FORMS_FORM_DESC_FORMS_EMAIL_RECIPIENTS" filter="safehtml" />
+			<field type="text" label="COM_WBTY_FORMS_FORM_LBL_FORMS_EMAIL_SUBJECT" name="email_subject" description="COM_WBTY_FORMS_FORM_DESC_FORMS_EMAIL_SUBJECT" filter="safehtml" />
+			<field type="editor" label="COM_WBTY_FORMS_FORM_LBL_FORMS_THANK_YOU_MESSAGE" name="thank_you_message" filter="safehtml" />
+
+			<field type="spacer" name="response_spacer" hr="true" />
+			
+			<field type="wbtysql" label="Email Field" name="email_field" description="Select the field which will contain an email address for the submitter" filter="safehtml" query="SELECT field_id, value FROM #__wbty_forms_field_options as fo LEFT JOIN #__wbty_forms_form_fields as ff ON ff.id = fo.field_id WHERE ff.form_id={id} AND fo.name='label' AND fo.state=1" key_field="field_id" value_field="value">
+				<option value=""></option>
+			</field>
+			
+			<field type="text" label="Response Email Subject" name="thank_you_subject" description="Subject for the email that is sent to a visitor after submitting the form. Leave blank to not have an email sent." filter="safehtml" />
+			<field type="editor" label="Response Email Body" name="thank_you_email" filter="safehtml" />
+			
+			<field type="text" label="Submit Text" name="submit_text" description="Enter the text you would like to have displayed inside the submit button." filter="safehtml" />
+			
+            <field name="state" type="hidden" default="1" /> 
+
+            <field name="checked_out" type="hidden" filter="unset" />
+            <field name="checked_out_time" type="hidden" filter="unset" />
+            
+            <field name="modified_by" type="hidden" filter="integer" overwrite="true" />
+            <field name="modified_time" type="hidden" filter="safehtml" overwrite="true" />
+
+        </fieldset>
+    </fields>
+
+
+	<fieldset name="form_field" loadForm="form_field"></fieldset>
+
+    <fieldset name="j_calendar" loadForm="j_calendar"></fieldset>
+	<fieldset name="j_captcha" loadForm="j_captcha"></fieldset>
+	<fieldset name="j_category" loadForm="j_category"></fieldset>
+	<fieldset name="j_checkbox" loadForm="j_checkbox"></fieldset>
+	<fieldset name="j_checkboxes" loadForm="j_checkboxes"></fieldset>
+	<fieldset name="j_componentlayout" loadForm="j_componentlayout"></fieldset>
+	<fieldset name="j_contentspacer" loadForm="j_contentspacer"></fieldset>
+	<fieldset name="j_editor" loadForm="j_editor"></fieldset>
+    <fieldset name="j_editors" loadForm="j_editors"></fieldset>
+	<fieldset name="j_filelist" loadForm="j_filelist"></fieldset>
+	<fieldset name="j_folderlist" loadForm="j_folderlist"></fieldset>
+	<fieldset name="j_groupedlist" loadForm="j_groupedlist"></fieldset>
+	<fieldset name="j_header" loadForm="j_header"></fieldset>
+	<fieldset name="j_helpsite" loadForm="j_helpsite"></fieldset>
+	<fieldset name="j_hidden" loadForm="j_hidden"></fieldset>
+	<fieldset name="j_imagelist" loadForm="j_imagelist"></fieldset>
+	<fieldset name="j_integer" loadForm="j_integer"></fieldset>
+	<fieldset name="j_languages" loadForm="j_languages"></fieldset>
+	<fieldset name="j_list" loadForm="j_list"></fieldset>
+	<fieldset name="j_media" loadForm="j_media"></fieldset>
+	<fieldset name="j_menu" loadForm="j_menu"></fieldset>
+	<fieldset name="j_menuitem" loadForm="j_menuitem"></fieldset>
+	<fieldset name="j_modulelayout" loadForm="j_modulelayout"></fieldset>
+	<fieldset name="j_password" loadForm="j_password"></fieldset>
+	<fieldset name="j_radio" loadForm="j_radio"></fieldset>
+	<fieldset name="j_spacer" loadForm="j_spacer"></fieldset>
+   <!--
+	<fieldset name="j_sql" loadForm="j_sql"></fieldset>-->
+	<fieldset name="j_textarea" loadForm="j_textarea"></fieldset>
+	<fieldset name="j_timezone" loadForm="j_timezone"></fieldset>
+	<fieldset name="j_wbtytext" loadForm="j_wbtytext"></fieldset>
+</form>

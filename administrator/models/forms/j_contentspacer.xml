@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="j_contentspacer">
+	<fieldset name="j_contentspacer">
+
+       <field name="label" type="text" size="40" class="inputbox field-label" label="COM_FSCOMBUILDER_FIELDS_LABEL" description="COM_FSCOMBUILDER_DESC_FIELDS_LABEL" required="true" filter="safehtml" /> 
+
+       <field name="name" type="text" size="40" class="inputbox field-name" label="COM_FSCOMBUILDER_FIELDS_NAME" description="COM_FSCOMBUILDER_DESC_FIELDS_NAME" required="true" filter="safehtml" />
+ 
+	   <field name="content" type="textarea" size="40" class="inputbox" label="Content" description="Enter up to a paragraph in content to be insterted at this spot" filter="safehtml" /> 
+	 
+	   <field name="class" type="text" size="40" default="" class="inputbox" label="COM_FSCOMBUILDER_FIELDS_CLASS" description="COM_FSCOMBUILDER_DESC_FIELDS_CLASS" filter="safehtml" /> 
+
+     <field name="pagebreak" type="checkbox" value="true" class="inputbox" label="COM_FSCOMBUILDER_FIELDS_PAGEBREAK" description="COM_FSCOMBUILDER_DESC_FIELDS_PAGEBREAK" filter="safehtml" />
+	   
+	   <field name="sql_value" type="hidden" default="IGNORE" />
+	</fieldset>
+
+</fields>
+</form>

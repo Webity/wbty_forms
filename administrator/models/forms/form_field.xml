@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="form_field">
+        <fieldset name="form_field">
+
+            <field name="id" type="hidden" default="0" class="id" /> 
+    
+		<!--<field type="text" label="COM_WBTY_FORMS_FORM_LBL_FORM_FIELDS_LABEL" name="label" description="COM_WBTY_FORMS_FORM_DESC_FORM_FIELDS_LABEL" filter="safehtml" required="true" class="default_col" />-->
+		<field type="modalsql" label="COM_WBTY_FORMS_FORM_LBL_FORM_FIELDS_FIELD_TYPE" name="field_type" query="SELECT value, name FROM #__wbty_forms_field_types WHERE state=1 ORDER BY ordering" value_field="name" key_field="value" description="COM_WBTY_FORMS_FORM_DESC_FORM_FIELDS_FIELD_TYPE" required="true" />
+		<field type="modalsql" label="COM_WBTY_FORMS_FORM_LBL_FORM_FIELDS_VALIDATION" name="validation" query="SELECT id, name FROM #__wbty_forms_validation_types WHERE state=1 ORDER BY ordering" value_field="name" key_field="id" description="COM_WBTY_FORMS_FORM_DESC_FORM_FIELDS_VALIDATION" />
+		<field name="form_id" type="hidden" filter="integer" class="parent_id" />
+
+            <field name="state" type="hidden" default="1" /> 
+
+            <field name="checked_out" type="hidden" filter="unset" />
+            <field name="checked_out_time" type="hidden" filter="unset" />
+            
+            <field name="modified_by" type="hidden" filter="integer" overwrite="true" />
+            <field name="modified_time" type="hidden" filter="safehtml" overwrite="true" />
+
+        </fieldset>
+    </fields>
+
+</form>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="fields">
+
+		<field type="sql" name="form" label="Select Form" description="Select the form to use. Create a new form in the WBTY Forms Component." query="SELECT id, name FROM #__wbty_forms_forms WHERE state=1 AND base_id=0" key_field="id" value_field="name" required="true" />
+		<field type="list" name="display_legend" label="Display Legend">
+			<option value="">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field type="list" name="layout_type" label="Basic Layout" description="Layout based on bootstrap form classes.">
+			<option value="">Standard</option>
+			<option value="form-search">Search</option>
+			<option value="form-inline">Inline</option>
+			<option value="form-horizontal">Horizontal</option>
+		</field>
+	</fieldset>
+</form>

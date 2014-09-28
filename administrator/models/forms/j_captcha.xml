@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="j_captcha">
+	<fieldset name="j_captcha">
+
+       <field name="notice" type="text" size="40" class="inputbox" label="Notice" description="Important notice for captcha fields." required="true" filter="safehtml" default="Make sure captcha plugin is enabled." /> 
+       <field name="name" type="text" size="40" class="inputbox field-name" label="Notice" description="Default value." required="true" filter="safehtml" default="captcha" /> 
+       <field name="label" type="text" size="40" class="inputbox field-label" label="Notice" description="Default value." required="true" filter="safehtml" default="Captcha" /> 
+       <field name="validate" type="text" size="40" readonly="true" class="inputbox" label="Notice" description="Default value." required="true" filter="safehtml" default="captcha" />
+	</fieldset>
+</fields>
+
+</form>

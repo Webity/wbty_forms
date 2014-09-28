@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="response">
+        <fieldset name="response">
+
+            <field name="id" type="hidden" default="0" class="id" /> 
+    
+        <field type="text" label="COM_WBTY_FORMS_FORM_LBL_RESPONSES_FORM_ID" name="form_id" size="" maxlength="" default="" description="COM_WBTY_FORMS_FORM_DESC_RESPONSES_FORM_ID" filter="safehtml" required="true" class="default_col" />
+        <field type="text" label="COM_WBTY_FORMS_FORM_LBL_RESPONSES_SUBMISSION_TIME" name="submission_time" size="" maxlength="" default="" description="COM_WBTY_FORMS_FORM_DESC_RESPONSES_SUBMISSION_TIME" class="" filter="safehtml" />
+		<field type="text" label="COM_WBTY_FORMS_FORM_LBL_RESPONSES_IP_ADDRESS" name="ip_address" size="" maxlength="" default="" description="COM_WBTY_FORMS_FORM_DESC_RESPONSES_IP_ADDRESS" class="" filter="safehtml" />
+		<field type="integer" label="COM_WBTY_FORMS_FORM_LBL_RESPONSES_SPAM" name="spam" default="" description="COM_WBTY_FORMS_FORM_DESC_RESPONSES_SPAM" class="" first="" last="" step="" />
+
+            <field name="state" type="hidden" default="1" /> 
+
+            <field name="checked_out" type="hidden" filter="unset" />
+            <field name="checked_out_time" type="hidden" filter="unset" />
+            
+            <field name="modified_by" type="hidden" filter="integer" overwrite="true" />
+            <field name="modified_time" type="hidden" filter="safehtml" overwrite="true" />
+
+        </fieldset>
+    </fields>
+
+
+	<fieldset name="response_value" loadForm="response_value"></fieldset>
+
+</form>
