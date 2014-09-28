@@ -7,7 +7,7 @@
     <author>Webity</author>
     <authorEmail>david@makethewebwork.com</authorEmail>
     <authorUrl>http://www.makethewebwork.com</authorUrl>
-    <version>0.2.1</version>
+    <version>0.2.6.4</version>
     <description>A simple form builder by Webity</description>
 
     <install> <!-- Runs on install -->
@@ -31,7 +31,7 @@
         <folder>controllers</folder>
         <folder>helpers</folder>
     </files>
-	<media destination="wbty_forms" folder="media"> 
+	<media destination="wbty_forms" folder="media">
         <folder>css</folder>
         <folder>font</folder>
         <folder>images</folder>
@@ -74,6 +74,6 @@
             <schemapath type="mysql">sql/updates/mysql</schemapath>
         </schemas>
     </update>
-    
+
 	<scriptfile>script.wbty_forms.php</scriptfile>
 </extension>
